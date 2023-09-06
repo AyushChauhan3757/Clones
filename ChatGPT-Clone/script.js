@@ -45,7 +45,7 @@ function sendMessage() {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
-                'Authorization': 'Bearer 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',
+                'Authorization': 'YOUR API KEY',
             },
             body: JSON.stringify({
                 model: 'gpt-3.5-turbo',
